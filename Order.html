@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <style>
+   
+    .flex-container{
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-img-top{
+      height: 150px;
+    }
+
+    .card {
+      flex: 1;
+      max-width: 400px;
+      height: 375px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .card-text {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: red;
+    }
+
+    @media (max-width: 700px) {
+      .flex-container {
+        flex-direction: column;
+        height: 100%;
+      }
+    }
+
+    
+  </style>
+</head>
+<body>
+    <div class="flex-container">
+        
+        <div class="card" style="width: 18rem;">
+          <img src="Clever_Drill.jpg" class="card-img-top" alt="sunflower">
+          <div class="card-body">
+            <h5 class="card-title">Clever Drill</h5>
+            <p class="card-text">Rs. 2000 (-25%)</p>
+            <a href="" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="paana.jpg" class="card-img-top" alt="sunflower">
+            <div class="card-body">
+              <h5 class="card-title">Best's Wrench</h5>
+              <p class="card-text">Rs. 449 (-10%)</p>
+              <a href="" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="Screw_Driver.png" class="card-img-top" alt="sunflower">
+            <div class="card-body">
+              <h5 class="card-title">Taparia Screw Driver Set</h5>
+              <p class="card-text">Rs. 4000 </p>
+              <a href="" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="Tool_Box.jpg" class="card-img-top" alt="sunflower">
+            <div class="card-body">
+              <h5 class="card-title">Bosch Toolbox</h5>
+              <p class="card-text">Rs. 6999 (-15%)</p>
+              <a href="" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        
+      </div>
+    
+</body>
+</html>
